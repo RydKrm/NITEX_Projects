@@ -1,0 +1,82 @@
+/* === service-start ===  */
+#service-part {
+  position: relative;
+  margin-bottom: 100px;
+}
+#service-part .shapes {
+  position: absolute;
+  top: -158px;
+  left: 0;
+}
+#service-part .pattern {
+  position: absolute;
+  top: -139px;
+  right: 0;
+}
+#service-part .title {
+  text-align: center;
+}
+#service-part .title h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+#service-part .title h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 46px;
+  font-weight: 700;
+}
+#service-part .box {
+  display: flex;
+  justify-content: space-between;
+}
+#service-part .box .item {
+  width: 22%;
+  background: white;
+  text-align: center;
+  border-radius: 36px;
+  padding: 60px 0;
+  -webkit-box-shadow: 10px 31px 83px -36px transparent;
+  -moz-box-shadow: 10px 31px 83px -36px transparent;
+  box-shadow: 10px 31px 83px -36px transparent;
+  transition: 0.4s;
+  position: relative;
+}
+#service-part .box .item:hover {
+  -webkit-box-shadow: 10px 31px 83px -36px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 31px 83px -36px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 31px 83px -36px rgba(0, 0, 0, 0.75);
+}
+#service-part .box .item h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 22px;
+  margin-bottom: 12px;
+}
+#service-part .box .item h5 {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+.item::after {
+  position: absolute;
+  content: "";
+  width: 105px;
+  height: 118px;
+  background-color: #df5173;
+  bottom: -35px;
+  left: -35px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 10px;
+  z-index: -1;
+  visibility: hidden;
+  opacity: 0;
+  transition: all linear 0.3s;
+}
+#service-part .box .item:hover::after {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* === service-end ===  */

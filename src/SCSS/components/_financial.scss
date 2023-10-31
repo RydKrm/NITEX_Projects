@@ -1,0 +1,56 @@
+#financial {
+  background-image: url("../../public/financial/financial-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+  position: relative;
+}
+
+.overlay {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.financial-wrapper {
+  position: relative;
+  z-index: 1;
+}
+
+.financial-heading {
+  font-family: "Lora", serif;
+  color: #ffffff;
+  font-size: 50px;
+  line-height: 66px;
+  width: 46%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.get-start-btn {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  padding: 16px 22px;
+  background-color: #4ac7aa;
+  border-radius: 80px;
+  box-shadow: none;
+  border-color: #999999;
+  text-decoration: none;
+}
+
+.financial-button .get-start-btn:hover {
+  color: #ffffff;
+  border-color: #ffff;
+}
+
+.financial-button {
+  text-align: center;
+  margin-top: 47px;
+}
